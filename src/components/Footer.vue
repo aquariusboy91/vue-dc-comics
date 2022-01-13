@@ -56,7 +56,7 @@
                 </ul>
             </div>
         </div>
-        <div><img src="..assets/img/dc-logo-bg.png" alt=""></div>
+        <div><img src="../assets/img/dc-logo-bg.png" alt=""></div>
 
         
         
@@ -97,6 +97,9 @@
     }
     .cont-list {
         display: flex;
+    }
+    img {
+        width: 80%;
     }
 
 </style>
