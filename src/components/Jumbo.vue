@@ -15,6 +15,10 @@
         background-size: cover;
         width: 100%;
         height: 30em;
+        ul {
+            list-style: none;
+            color: white;
+        }
     }
 
 </style>
