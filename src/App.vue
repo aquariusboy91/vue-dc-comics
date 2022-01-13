@@ -4,6 +4,7 @@
     <Jumbo />
     <Jumbonav />
     <Footer />
+    <SubFooter />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from './components/Header.vue'
 import Jumbo from './components/Jumbo.vue'
 import Jumbonav from './components/Jumbonav.vue'
 import Footer from './components/Footer.vue'
+import SubFooter from './components/SubFooter.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     Header,
     Jumbo,
     Jumbonav,
-    Footer
+    Footer,
+    SubFooter
   }
 }
 </script>
