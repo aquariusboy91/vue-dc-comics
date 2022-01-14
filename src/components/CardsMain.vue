@@ -1,8 +1,9 @@
 <template>
-    <div>
+    <div class ="container-cards">
          <img
             :src="img" 
     >
+        <span>{{series}}</span>
         <span>{{price}}</span>
     </div>
   
@@ -17,13 +18,21 @@ export default {
 </script>
 
 <style lang="scss">
-    .product {
-      flex-basis: calc((100% / 4) - 0.4em);
-      margin: 0.2em;
-      padding: 1em;
-      background-color: white;
+    .container-cards {
+      flex-basis: calc((100% / 6) - 1em);
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      align-items: center;
       img {
-        width: 100%;
+        width: 80%;
+        height: 80%;
+      }
+      span {
+          font-size: 13px;
+          color: white;
+          font-weight: bold;
+          padding-top: 0.5em ;
       }
     }
 

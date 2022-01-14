@@ -1,6 +1,6 @@
 <template>
   <main>
-      <div>
+      <div class="title">
         <h1>{{ title }}</h1>
       </div>
       <div class="cards-cont">
@@ -8,7 +8,12 @@
             v-for="(card, index) in cards"
             :key="index"
             :img="card.thumb"
-            :price="card.price"/>
+            :price="card.price"
+            :series="card.series"
+            :type="card.type"/>
+        </div>
+        <div class="loading">
+            <a href=""><span>LOAD MORE</span></a>
         </div>
 
   </main>
@@ -107,13 +112,32 @@ export default {
 
 <style lang="scss" scoped>
     main {
-        background-color: white;
+        background-color: black;
         width: 100%;
-        height: 27em;
+        height: 100%;
             .cards-cont  {
              display: flex;
              flex-wrap: wrap;
-  }
+             justify-content: center;
+            }
+            .title {
+                display: flex;
+                justify-content: center;
+            }
+             .loading {
+                 display: flex;
+                 justify-content: center;
+             }
+             .loading a {
+                padding: 0.5em 1em;
+                margin-bottom: 1em;
+                color: white;
+                background-color: #0F4F8B;
+                text-decoration: none;
+                font-size: 11px;
+                font-weight: bold;
+
+      }
     }
 
 </style>
