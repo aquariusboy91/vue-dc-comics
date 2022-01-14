@@ -2,6 +2,7 @@
   <div id="app">
     <Header />
     <Jumbo />
+    <Main />
     <Jumbonav />
     <Footer />
     <SubFooter />
@@ -11,6 +12,7 @@
 <script>
 import Header from './components/Header.vue'
 import Jumbo from './components/Jumbo.vue'
+import Main from './components/Main.vue'
 import Jumbonav from './components/Jumbonav.vue'
 import Footer from './components/Footer.vue'
 import SubFooter from './components/SubFooter.vue'
@@ -20,6 +22,7 @@ export default {
   components: {
     Header,
     Jumbo,
+    Main,
     Jumbonav,
     Footer,
     SubFooter
