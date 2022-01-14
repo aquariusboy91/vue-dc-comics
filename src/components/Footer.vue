@@ -38,7 +38,6 @@
                     <li>Games</li>
                     <li>Videos</li>
                     <li>News</li>
-                    <li>Tv</li>
                 </ul>
             </div>
              <div>
@@ -88,8 +87,10 @@
                 margin-bottom: 2em;
             }
         }
+            li {
+                line-height: 1.8em;
+            }
         ul li:first-child{
-            padding-bottom: 0.7em;
             font-size: 22px;
             padding-right: 1em;
         }

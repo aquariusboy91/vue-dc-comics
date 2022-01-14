@@ -1,16 +1,16 @@
 <template>
     <div>
         <div>
-            <span>SiGN UP NOW</span>
+            <a href=""><span>SiGN UP NOW</span></a>
         </div>
         <div>
             <ul class ="social">
                 <li>FOLLOW US</li>
-                <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-                <li><img src="../assets/img/footer-pinterest.png" alt=""></li>
-                <li><img src="../assets/img/footer-twitter.png" alt=""></li>
-                <li><img src="../assets/img/footer-youtube.png" alt=""></li>
-                <li><img src="../assets/img/footer-periscope.png" alt=""></li>
+                <li><a href=""><img src="../assets/img/footer-facebook.png" alt=""></a></li>
+                <li><a href=""><img src="../assets/img/footer-pinterest.png" alt=""></a></li>
+                <li><a href=""><img src="../assets/img/footer-twitter.png" alt=""></a></li>
+                <li><a href=""><img src="../assets/img/footer-youtube.png" alt=""></a></li>
+                <li><a href=""><img src="../assets/img/footer-periscope.png" alt=""></a></li>
             </ul>
         </div>
 
@@ -36,10 +36,13 @@
             display: inline-block;
         }
         div span {
-            border: 1px solid #11518D;
+            border: 5px solid #11518D;
             padding:1em;
             color: white;
             font-weight: bold;
+        }
+        div a {
+            text-decoration: none;
         }
     }
     .social {
